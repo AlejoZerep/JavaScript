@@ -1,0 +1,53 @@
+/* Reset default styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Removes Anchors lines */
+a {
+  color: rgb(47, 154, 255);
+  text-decoration: none;
+}
+
+/*Featured Items Style*/
+.Enduro-Bike, .Blue-Helmet, .Green-MTB-Glove, .Rim-Shimano {
+  width: 70%;
+}
+
+/* Logo Animation */
+.rotate_gear {
+  transition: transform 1s;
+}
+
+.rotate_gear:hover {
+  transform: rotate(360deg);
+}
+
+/* mixin Maintenance */
+.maintenance {
+  height: 300px;
+  width: 500px;
+}
+
+/* Wheels Decoration */
+.Shirt {
+  width: 100%;
+  height: 700px;
+}
+
+.similar {
+  width: 200px;
+  height: 200px;
+}
+
+/*Media Queries*/
+@media (min-width: 320px) and (max-width: 1920px) {
+  .Shirt {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */
